@@ -7,7 +7,7 @@ import service.UserService;
 import java.util.List;
 
 public class OrderServiceImpl implements OrderService {
-    UserService userService;
+    private UserService userService;
 
     //@Override
     public List<User> initOrder(String name) {
